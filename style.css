@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width:100vw;
+    height: 100vh;
+}
+.stopwatch{
+    color: white;
+    width:300px;
+    background:#2F2D2E;
+    top: 40%;
+    left: 30%;
+    position: relative;
+    padding: 1rem;
+    border-radius:3px;
+    text-align: center;
+}
+.timer{
+    font-size: 30px;
+    margin-bottom:15px;
+    background-color: aliceblue;
+    padding:0.5rem;
+    color:#2F2D2E;
+    border-radius:3px;
+}
+.buttons{
+    width:100%;
+}
+.buttons i{
+    color: #2F2D2E;
+    background-color: #fff;
+    padding:0.7rem;
+    border-radius: 50%;
+    width: 2.4rem;
+    cursor: pointer;
+}
